@@ -12,7 +12,7 @@ public class Main {
         Methods.findNumber(11);
         System.out.println("\nЗадание 7: " + Methods.findLessZero(-7));
         Methods.printString("Мама мыла раму", 4);
-        Methods.yearIsLeap(100);
+        System.out.println(Methods.yearIsLeap(100));
         int[] array1 = Methods.zeroToOne();
         Methods.printArray(array1);
         int[] array2 = Methods.fillMassive();

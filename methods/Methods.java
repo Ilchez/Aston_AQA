@@ -69,17 +69,17 @@ public class Methods {
         }
     }
 
-    public static void yearIsLeap(int year) {
+    public static boolean yearIsLeap(int year) {
         System.out.print("\nЗадание 9: ");
         if( year % 4 == 0 ) {
             if (year % 400 == 0) {
-                System.out.println("Год високосный");
+                return true;
             } else {
-                System.out.println("Год невисокосный");
+                return false;
             }
         }
         else {
-            System.out.println("Год невисокосный");
+            return false;
         }
     }
 
